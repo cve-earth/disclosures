@@ -1,0 +1,170 @@
+name: Environmental Vulnerability Disclosure
+description: Report a corporate environmental vulnerability
+labels: [EVD-report, unverified]
+body:
+  - type: input
+    id: company-name
+    attributes:
+      label: Company Name
+      description: Please provide the full name of the company being 
+reported.
+      placeholder: e.g., Acme Corporation
+    validations:
+      required: true
+  - type: input
+    id: industry
+    attributes:
+      label: Industry
+      description: Please specify the industry of the company.
+      placeholder: e.g., Manufacturing, Energy, Tech
+    validations:
+      required: true
+  - type: input
+    id: headquarters
+    attributes:
+      label: Headquarters
+      description: Please provide the location of the company's 
+headquarters.
+      placeholder: e.g., New York, USA
+    validations:
+      required: true
+  - type: dropdown
+    id: risk-nature
+    attributes:
+      label: Nature of Environmental Risk
+      description: Please select the category that best describes the 
+nature of the environmental risk.
+      options:
+        - Air Pollution (e.g., production emissions)
+        - Water Contamination (e.g., chemical waste)
+        - Nuclear Hazards (e.g., nuclear fallout)
+        - Climate Impact (e.g., downstream emissions)
+        - Ozone Depletion
+        - Deforestation
+        - Resource Depletion (e.g., over-mining)
+        - Other (please specify in the report)
+    validations:
+      required: true
+  - type: dropdown
+    id: impact-scale
+    attributes:
+      label: Estimated Impact Scale
+      description: Please select the approximate scale of the 
+environmental impact.
+      options:
+        - Local
+        - Regional
+        - National
+        - Global
+    validations:
+      required: true
+  - type: dropdown
+    id: occurrence-frequency
+    attributes:
+      label: Frequency of Occurrence
+      description: How frequently does the reported environmental issue 
+occur?
+      options:
+        - One-time event
+        - Occasional
+        - Regular
+        - Constant
+    validations:
+      required: true
+  - type: dropdown
+    id: human-risk-level
+    attributes:
+      label: Risk to Human Life
+      description: To your knowledge, what is the level of direct risk 
+this issue poses to human life?
+      options:
+        - No known risk
+        - Low risk
+        - Moderate risk
+        - High risk
+        - Extreme risk
+    validations:
+      required: true
+  - type: textarea
+    id: reported-issue
+    attributes:
+      label: Reported Issue
+      description: Please provide a detailed description of the 
+environmental issue or activity being reported. Include as much 
+information as possible. If the issue is related to a specific event, 
+please provide date(s) and location(s).
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Please provide any evidence you may have to support 
+this claim. This could be in the form of links to articles, research 
+papers, videos, photos, regulatory findings, etc. Note: Do not share any 
+confidential or proprietary information.
+    validations:
+      required: false
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Please provide links or references to any sources that 
+can substantiate your claim. These could include news articles, scientific 
+studies, legal documents, etc. You can list multiple sources.
+    validations:
+      required: false
+  - type: textarea
+    id: potential-impact
+    attributes:
+      label: Potential Impact
+      description: Please try to provide a rough estimation of the 
+potential environmental impact of the reported issue. This could include 
+affected ecosystems, estimated emissions, potential health risks, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: suggested-remediation
+    attributes:
+      label: Suggested Remediation
+      description: If possible, suggest ways the company could mitigate 
+the environmental issue being reported. This could include altering 
+business practices, investing in cleaner technology, etc.
+    validations:
+      required: false
+  - type: input
+    id: other-involved-parties
+    attributes:
+      label: Other Involved Parties
+      description: Please list any other corporations, government bodies, 
+or organizations that are involved in this issue, if applicable.
+      placeholder: e.g., XYZ Corporation, Ministry of Environment
+    validations:
+      required: false
+  - type: input
+    id: related-evds
+    attributes:
+      label: Related EVDs or reports
+      description: If there are any related Environmental Vulnerability 
+Disclosures or other relevant reports, please provide references or links.
+      placeholder: e.g., EVD#1234
+    validations:
+      required: false
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Include any additional information you feel may be 
+relevant to this report.
+    validations:
+      required: false
+  - type: input
+    id: reporter-affiliation
+    attributes:
+      label: Reporter's Affiliation
+      description: If you are affiliated with any organization or group, 
+please state it here. If not, you can put 'Concerned Citizen'. Your 
+identity will remain anonymous unless you choose to disclose it.
+      placeholder: e.g., Environmental Group, Concerned Citizen
+    validations:
+      required: false
