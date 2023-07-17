@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CVE.Earth Main Website
+    url: https://www.cve.earth
+    about: Please visit our main website for more information.
+  - name: Contribution Guide
+    url: https://github.com/cve-earth/disclosures/blob/main/CONTRIBUTING.md
+    about: Please review our contribution guidelines before submitting an issue.
+  - name: Questions, Comments, or Concerns
+    url: https://github.com/cve-earth/disclosures/discussions
+    about: Have any questions, comments, or concerns? Start a discussion here.
+
