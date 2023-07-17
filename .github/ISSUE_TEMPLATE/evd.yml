@@ -1,6 +1,7 @@
 name: Environmental Vulnerability Disclosure
 description: Report a corporate environmental vulnerability
 labels: [EVD-report, unverified]
+title: "[EVD] :"
 body:
   - type: input
     id: company-name
