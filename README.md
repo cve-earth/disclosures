@@ -65,7 +65,7 @@ This project is licensed under the <Your License> - see the
 
 ## Contact
 
-For any questions, comments, or concerns, please use a discussion instead of an issue.
+For any questions, comments, or concerns, [please use a discussion instead of an issue.](https://github.com/orgs/cve-earth/discussions/)
 
 ## Acknowledgements
 
