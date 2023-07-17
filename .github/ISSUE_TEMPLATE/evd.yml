@@ -91,7 +91,7 @@ body:
     id: evidence
     attributes:
       label: Evidence
-      description: Please provide any evidence you may have to support this claim. This could be in the form of links to articles, research papers, videos, photos, regulatory findings, etc. Note: Do not share any confidential or proprietary information.
+      description: Please provide any evidence you may have to support this claim. This could be in the form of links to articles, research papers, videos, photos, regulatory findings, etc. Please Do not share any confidential or proprietary information.
     validations:
       required: false
   - type: textarea
